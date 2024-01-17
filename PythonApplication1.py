@@ -73,6 +73,8 @@ while True:
         
         
 crust = input("\nWhat type of crust do you want:  ")
+while len(crust) == 0:
+    crust = input("Crust type cannot be blank!  Please enter crust type:  ")
 
 
 while True: 
